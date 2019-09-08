@@ -86,7 +86,7 @@
   #Create temporary directory to store the tools list
   mkdir /usr/share/blackmate/tmp 2> /dev/null || true
 
-  wget -q -P /usr/share/blackmate/ https://mirror.yandex.ru/mirrors/blackarch/blackarch/os/x86_64/blackarch.db.tar.gz 
+  wget -q -P /usr/share/blackmate/ http://mirror.team-cymru.com/blackarch/blackarch/os/x86_64/blackarch.db.tar.gz 
   tar -zxf /usr/share/blackmate/blackarch.db.tar.gz -C /usr/share/blackmate/tmp
 
   #Terminal to use for the blackarch entry
